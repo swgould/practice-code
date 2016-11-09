@@ -70,7 +70,7 @@ ghostcolor[5] = (255, 255, 255, 255) # white, flashing ghost
 class game ():
 
     def defaulthiscorelist(self):
-            return [ (100000,"David") , (80000,"Andy") , (60000,"Count Pacula") , (40000,"Cleopacra") , (20000,"Brett Favre") , (10000,"Sergei Pachmaninoff") ]
+            return [ (100000,"Sami") , (80000,"Andrew") , (60000,"Count Pacula") , (40000,"Cleopacra") , (20000,"Brett Favre") , (10000,"Sergei Pachmaninoff") ]
 
     def gethiscores(self):
             """If res/hiscore.txt exists, read it. If not, return the default high scores.
